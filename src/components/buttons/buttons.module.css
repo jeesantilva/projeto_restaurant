@@ -1,0 +1,49 @@
+.container_btns{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_btns button{
+    padding: 10px;
+    display: flex;
+    flex: 1 1 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btnAtivo{
+    background-color: #daa520 ;
+}
+.btnDesativo{
+    background-color: #f3f3f3;
+}
+.container_btns button:hover{
+    background-color: #daa520 ;
+}
+
+
+.container_btns button .img_btn{
+    width: 24px;
+    height: 24px;
+}
+
+.container_btns button p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+@media (max-width: 375px){
+    .container_btns{
+        width: 100%;
+        padding: 8px;
+    }
+}

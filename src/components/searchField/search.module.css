@@ -1,0 +1,48 @@
+.container_input{
+    border: solid 1px #888888bb;
+    border-radius: 15px;
+    width: 80%;
+    padding: 5px 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_input:hover{
+    border: solid 1px #daa520;
+}
+
+.container_input .img_input{
+    width: 25px;
+    height: 25px;
+}
+
+.container_input input{
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    cursor:text;
+    outline: none;
+} 
+
+.container_input input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+    @media (max-width: 765px){
+   .container_input{
+    width: 90%;
+   }
+}
+
+  @media (max-width: 375px){
+   .container_input{
+    width: 98%;
+   }
+   .container_input input::placeholder {
+    font-size: 10px;
+  }
+}
