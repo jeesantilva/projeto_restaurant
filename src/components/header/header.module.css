@@ -53,11 +53,16 @@
 }
 
 @media (max-width: 412px){
+    .header div{
+      width: 100%;
+      padding: 8px;
+    }
+
     .header div h1{
       font-size: 40px;
     }
     
     .header div p{
-      font-size: 24px;
+      font-size: 20px;
     }
 }
