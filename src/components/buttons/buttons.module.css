@@ -41,7 +41,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 375px){
+@media (max-width: 412px){
     .container_btns{
         width: 100%;
         padding: 8px;

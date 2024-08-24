@@ -30,19 +30,20 @@
 .container_input input::placeholder {
     font-size: 14px;
     font-weight: 600;
-  }
-
-    @media (max-width: 765px){
-   .container_input{
-    width: 90%;
-   }
 }
 
-  @media (max-width: 375px){
-   .container_input{
-    width: 98%;
-   }
-   .container_input input::placeholder {
+@media (max-width: 765px){
+  .container_input{
+    width: 90%;
+  }
+}
+
+@media (max-width: 412px){
+  .container_input{
+    width: 100%;
+  }
+
+  .container_input input::placeholder{
     font-size: 10px;
   }
 }
